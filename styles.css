@@ -1,0 +1,94 @@
+body {
+  background-color: red;
+  background-image: url(https://cdn.glitch.global/5d46af1f-0d4d-40c1-8bb8-e75c528aab85/santa.webp?v=1669294530767);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 60px;
+  border: 3px solid black;
+  padding: 20px;
+  background-color: rgba(251, 248, 249, 0.9);
+}
+
+.red {
+  font-family: "Staatliches", cursive;
+  color: red;
+  font-size: 70px;
+  border: none;
+}
+
+.red-box {
+  background-color: red;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.christmas {
+  background-color: rgb(251, 248, 249, 0.83);
+  border: 2px solid black;
+  height: 300px;
+  width: 200px;
+  margin: 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myBtn {
+  margin-left: 100px;
+  position: absolute;
+}
+
+.play {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://img.icons8.com/wired/2x/play.png);
+  background-size: contain;
+}
+
+.pause {
+  background-image: url(https://img.icons8.com/dotty/2x/pause-squared.png);
+}
+
+@media all and (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+}
